@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Privacy Policy — Spendly{% endblock %}
+
+{% block content %}
+<section class="auth-section" style="align-items: flex-start; padding-top: 4rem; padding-bottom: 4rem;">
+    <div class="auth-container" style="max-width: 680px;">
+
+        <div class="auth-header">
+            <h1 class="auth-title">Privacy Policy</h1>
+            <p class="auth-subtitle">Last updated June 2026</p>
+        </div>
+
+        <div class="terms-body">
+
+            <div class="terms-section">
+                <h2 class="terms-heading">1. Information We Collect</h2>
+                <p class="terms-text">We collect your name, email address, hashed password, and the expense data you enter — including amounts, categories, dates, and descriptions. We do not store any payment methods, bank account details, or financial credentials of any kind.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2 class="terms-heading">2. How We Use Your Data</h2>
+                <p class="terms-text">Your data is used solely to provide the Spendly service: authenticating your login, displaying your expenses, and generating your spending summaries. We do not sell, rent, or share your personal information with any third parties.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2 class="terms-heading">3. Data Security</h2>
+                <p class="terms-text">We protect your data using encryption and secure storage practices. That said, no system is completely immune to security risks — please use a strong, unique password and keep it private. If you suspect unauthorised access to your account, contact us immediately.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2 class="terms-heading">4. Your Rights &amp; Data Deletion</h2>
+                <p class="terms-text">You have the right to access, correct, or delete your personal data at any time from your account settings. Once your account is deleted, all associated data is permanently removed and cannot be recovered.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2 class="terms-heading">5. Third-Party Services</h2>
+                <p class="terms-text">Spendly currently does not integrate with any external services, analytics platforms, or advertising networks. If we add third-party integrations in the future, this policy will be updated to reflect those changes before they take effect.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2 class="terms-heading">6. Changes to This Policy</h2>
+                <p class="terms-text">We may update this Privacy Policy from time to time as the app evolves. We will notify you of any significant changes via the email address associated with your account. The updated policy will always be accessible from the footer of the app.</p>
+            </div>
+
+            <div class="terms-section">
+                <h2 class="terms-heading">7. Contact</h2>
+                <p class="terms-text">If you have any questions or concerns about this Privacy Policy or how your data is handled, please reach out at <a href="mailto:support@spendly.com" class="terms-link">support@spendly.com</a>. We aim to respond to all enquiries within a few business days.</p>
+            </div>
+
+        </div>
+
+        <div style="margin-top: 2.5rem; text-align: center;">
+            <a href="{{ url_for('landing') }}" class="btn-ghost">← Back to Home</a>
+        </div>
+
+    </div>
+</section>
+{% endblock %}
