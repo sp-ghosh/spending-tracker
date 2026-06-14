@@ -507,6 +507,24 @@ a { color: inherit; text-decoration: none; }
     color: var(--ink-faint);
 }
 
+.footer-legal {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--ink-faint);
+    margin-top: 0.15rem;
+}
+
+.footer-legal a {
+    color: var(--ink-faint);
+    transition: color 0.2s;
+}
+
+.footer-legal a:hover { color: var(--paper); }
+
+.footer-legal-sep { opacity: 0.4; }
+
 /* ------------------------------------------------------------------ */
 /* Responsive                                                          */
 /* ------------------------------------------------------------------ */
